@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <VersionPrefix>4.2.0-preview</VersionPrefix>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+    
+    <PackageId>Notion.Net</PackageId>
+    <Authors>Vedant Koditkar</Authors>
+    <Description>A Notion API dotnet client</Description>
+    <RepositoryUrl>https://github.com/notion-dotnet/notion-sdk-net</RepositoryUrl>
+    <PackageTags>notion;client;api;json;sdk;notion.net</PackageTags>
+    <PackageIcon>notion-logo.png</PackageIcon>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\assets\notion-logo.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\..\LICENSE.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath> 
+    </None>
+    <None Include="..\..\docs\README.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath> 
+    </None>
+  </ItemGroup>
+
+</Project>
